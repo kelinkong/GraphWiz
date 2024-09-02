@@ -6,8 +6,8 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_PREFIX_PATH "/opt/homebrew/Cellar/qt@5/5.15.13")
-set(GUROBI_HOME "/Library/gurobi1101/macos_universal2")
+set(CMAKE_PREFIX_PATH "/opt/homebrew/Cellar/qt@5/5.15.13") # Qt5 安装路径
+set(GUROBI_HOME "/Library/gurobi1101/macos_universal2") # Gurobi 安装路径
 
 find_package(Qt5 COMPONENTS
         Core
