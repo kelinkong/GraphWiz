@@ -1,2 +1,4 @@
-file
-cmake-build-debug
+file/
+cmake-build-debug/
+.DS_Store
+.idea/
