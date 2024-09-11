@@ -1,0 +1,51 @@
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:18:38 2024
+
+Set parameter LogFile to value "src/main/java/gzhu/yh/logger/officialDemo.log"
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:19:04 2024
+
+Set parameter LogFile to value "./src/main/java/gzhu/yh/logger/officialDemo.log"
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:20:15 2024
+
+Set parameter LogFile to value "./src/main/java/gzhu/yh/logger/officialDemo.log"
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:20:28 2024
+
+Set parameter LogFile to value "src/main/java/gzhu/yh/logger/officialDemo.log"
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:24:37 2024
+
+Set parameter LogFile to value "src/main/java/gzhu/yh/logger/officialDemo.log"
+
+Gurobi 11.0.3 (win64, Java) logging started Wed Sep  4 00:58:41 2024
+
+Set parameter Username
+Set parameter LogFile to value "src/main/java/gzhu/yh/logger/officialDemo.log"
+Academic license - for non-commercial use only - expires 2025-09-02
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 2 rows, 3 columns and 5 nonzeros
+Model fingerprint: 0x98886187
+Variable types: 0 continuous, 3 integer (3 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Found heuristic solution: objective 2.0000000
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 3 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%

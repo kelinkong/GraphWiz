@@ -1,5 +1,6 @@
 //
 // Created by kelin on 24-4-23.
+// 日志处理
 //
 
 #ifndef LOGSTREAM_H
