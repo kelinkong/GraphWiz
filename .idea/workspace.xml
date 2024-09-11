@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1cfebb7-01db-40f1-a5f7-b0502cf6573b" name="Changes" comment="java重构">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo/img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gzhu/yh/graphDrawing/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gzhu/yh/graphDrawing/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JavaProject\Maven\repository" />
+        <option name="mavenHome" value="D:/JavaProject/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\JavaProject\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lVuQze8wEKdbJPYxWMBhY4W4OB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainJNI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GurobiColumnModelingTest.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ILP_MDRD2.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InfinityValue.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InfinityValueTest.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Main.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OfficialDemo.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.drawingGraphTest.DrawingTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.drawingGraphTest.DrawingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GraphWiz-Java8 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GraphWiz-Java8 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.GraphWiz-Java8 [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Github/GraphWiz&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Github\GraphWiz-Java8\src\main\resources\photo" />
+      <recent name="E:\Project\Github\GraphWiz-Java8" />
+      <recent name="E:\Project\Github\GraphWiz-Java8\src" />
+      <recent name="E:\Project\Github\GraphWiz-Java8\src\main" />
+      <recent name="E:\Project\Github\GraphWiz-Java8\src\main\java\gzhu\yh\domination" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gzhu.yh.model.maximalRomanDomination" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gzhu.yh.Main" />
+      <module name="GraphWiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gzhu.yh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ILP_MDRD2.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GraphWiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gzhu.yh.model.maximalRomanDomination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gzhu.yh.model.maximalRomanDomination" />
+      <option name="MAIN_CLASS_NAME" value="gzhu.yh.model.maximalRomanDomination.ILP_MDRD2" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfinityValueTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GraphWiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functionTest" />
+      <option name="MAIN_CLASS_NAME" value="functionTest.InfinityValueTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GraphWiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gzhu.yh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gzhu.yh" />
+      <option name="MAIN_CLASS_NAME" value="gzhu.yh.Main" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfficialDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GraphWiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="callGurobi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="callGurobi" />
+      <option name="MAIN_CLASS_NAME" value="callGurobi.OfficialDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main.Test1" />
+        <item itemvalue="JUnit.ILP_MDRD2.Test1" />
+        <item itemvalue="JUnit.InfinityValueTest.Test1" />
+        <item itemvalue="JUnit.OfficialDemo.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1cfebb7-01db-40f1-a5f7-b0502cf6573b" name="Changes" comment="" />
+      <created>1725277553593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725277553593</updated>
+      <workItem from="1725277554614" duration="3571000" />
+      <workItem from="1725281400803" duration="9694000" />
+      <workItem from="1725328806183" duration="25328000" />
+      <workItem from="1725382649106" duration="97000" />
+      <workItem from="1725417835336" duration="31072000" />
+      <workItem from="1725557139942" duration="1118000" />
+      <workItem from="1725957406746" duration="23672000" />
+      <workItem from="1726035798442" duration="9135000" />
+      <workItem from="1726046923529" duration="878000" />
+    </task>
+    <task id="LOCAL-00001" summary="java重构">
+      <option name="closed" value="true" />
+      <created>1725549086245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725549086245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/java-8" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="java重构" />
+  </component>
+</project>
