@@ -1,6 +1,8 @@
 ## GraphWiz
 
-生成图算法和求解图的一些问题的整数规划算法
+生成图算法和求解图的一些问题的整数规划算法。
+
+[Java实现版本](https://github.com/biubiubiuCode/MDRD-java), 由[biubiubiuCode](https://github.com/biubiubiuCode)贡献
 
 ![img.png](images/img.png)
 
