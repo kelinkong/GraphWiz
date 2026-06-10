@@ -280,31 +280,42 @@ void MainWindow::solveModel() {
     Logger::getInstance()<<"                 Solve finashing\n";
     Logger::getInstance()<<"----------------------------------------------------\n";
 
-    if(show_val_value) {
-        Logger::getInstance() << "Vars value:\n";
-        Logger::getInstance() <<"----------------------------------------------------\n";
-        const int numVars = model->get(GRB_IntAttr_NumVars);
-        for (int i = 0; i < numVars; ++i) {
-            GRBVar var = model->getVar(i);
-            const double var_value = var.get(GRB_DoubleAttr_X);
-            QString var_value_str = QString::number(var_value, 'f', 2);
-            Logger::getInstance() << var.get(GRB_StringAttr_VarName) << var_value_str.toStdString();
+    int status = this->model->get(GRB_IntAttr_Status);
+    if (status == GRB_OPTIMAL) {
+        if(show_val_value) {
+            Logger::getInstance() << "Vars value:\n";
+            Logger::getInstance() <<"----------------------------------------------------\n";
+            const int numVars = model->get(GRB_IntAttr_NumVars);
+            for (int i = 0; i < numVars; ++i) {
+                GRBVar var = model->getVar(i);
+                const double var_value = var.get(GRB_DoubleAttr_X);
+                QString var_value_str = QString::number(var_value, 'f', 2);
+                Logger::getInstance() << var.get(GRB_StringAttr_VarName) << " = " << var_value_str.toStdString() << "\n";
+            }
+            Logger::getInstance() <<"----------------------------------------------------\n";
         }
-        Logger::getInstance() <<"----------------------------------------------------\n";
+        if(graph) {
+            Logger::getInstance() << "Type of graph: " << this->graph->graph_type << "\n";
+            Logger::getInstance() << "Number of vertices: " << this->graph->n << "\n";
+            Logger::getInstance() << "Number of edges: " << this->graph->m << "\n";
+            Logger::getInstance() <<"----------------------------------------------------\n";
+        }
+        if(use_model_type != -1) {
+            Logger::getInstance() << "Model name: " << this->model->get(GRB_StringAttr_ModelName) << "\n";
+            Logger::getInstance() <<"----------------------------------------------------\n";
+        }
+        const double optimal_objective = this->model->get(GRB_DoubleAttr_ObjVal);
+        QString optimal_objective_str = QString::number(optimal_objective, 'f', 4);
+        Logger::getInstance() << "Optimal objective: " << optimal_objective_str.toStdString() << "\n";
+    } else {
+        if (status == GRB_INFEASIBLE) {
+            Logger::getInstance() << "Solver status: Infeasible (The model is mathematically infeasible, no solution exists).\n";
+        } else if (status == GRB_UNBOUNDED) {
+            Logger::getInstance() << "Solver status: Unbounded.\n";
+        } else {
+            Logger::getInstance() << "Solver finished with non-optimal status code: " << status << "\n";
+        }
     }
-    if(graph) {
-        Logger::getInstance() << "Type of graph:" << this->graph->graph_type<<"\n";
-        Logger::getInstance() << "Number of vertex of graph:" << this->graph->n;
-        Logger::getInstance() << "Number of edge of graph:" << this->graph->m;
-        Logger::getInstance() <<"----------------------------------------------------\n";
-    }
-    if(use_model_type != -1) {
-        Logger::getInstance() << "Model name:" << this->model->get(GRB_StringAttr_ModelName) << "\n";
-        Logger::getInstance() <<"----------------------------------------------------\n";
-    }
-    const double optimal_objective = this->model->get(GRB_DoubleAttr_ObjVal);
-    QString optimal_objective_str = QString::number(optimal_objective, 'f', 4);
-    Logger::getInstance() << "Optimal objective: " << optimal_objective_str.toStdString() << "\n";
 }
 
 void MainWindow::saveLpFile() {

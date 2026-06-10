@@ -92,7 +92,8 @@ void writeAdjMatrixToCSV(const QVector<QVector<int>>& adjMatrix) {
 void showGraph(const QVector<QVector<int>>& adjMatrix) {
     // Create a QGraphicsView and a QGraphicsScene
     auto *view = new QGraphicsView();
-    auto *scene = new QGraphicsScene();
+    view->setAttribute(Qt::WA_DeleteOnClose); // Automatically delete the view when closed
+    auto *scene = new QGraphicsScene(view);   // Bind scene's lifecycle to view
 
     // Set the scene on the view
     view->setScene(scene);
