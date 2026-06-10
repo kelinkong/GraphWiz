@@ -11,6 +11,10 @@ An interactive Qt/C++ desktop application that bridges **Procedural Graph Genera
 
 ---
 
+![GraphWiz GUI Screenshot](images/img.png)
+
+---
+
 ## Why GraphWiz?
 
 In graph theory and operations research, researchers and students often face a disjointed workflow: generating specific graph topologies in one script, exporting them, writing integer programming formulations in another language, and then feeding them into a solver.
@@ -75,6 +79,9 @@ Common...   Block     Cactus       ┌──────────────
                     Virtual        └───────────────────────────┘
                   Inheritance
 ```
+
+### Component Class Diagram
+![GraphWiz Component Class Diagram](images/class.png)
 
 ---
 
